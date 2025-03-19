@@ -19,7 +19,7 @@ header {
 
 h1{
     position: absolute;
-    left: 50%;
+    left: 45%;
 }
 
 .container {
@@ -67,6 +67,8 @@ h1{
 /* Header button adjustments */
 header a.btn {
     display: inline-block;
+    position: relative;
+    left: 90%;
     background: #333;
     color: #fff;
     padding: 10px 15px;
@@ -94,6 +96,7 @@ header a.btn:hover {
 
     header a.btn {
         margin-top: 10px;
+        position: absolute;
         right: 0;
         width: auto;
     }
