@@ -17,6 +17,11 @@ header {
     flex-wrap: wrap;
 }
 
+h1{
+    position: absolute;
+    left: 50%;
+}
+
 .container {
     margin: 30px auto;
     width: 90%;
@@ -89,6 +94,7 @@ header a.btn:hover {
 
     header a.btn {
         margin-top: 10px;
+        right: 0;
         width: auto;
     }
 
