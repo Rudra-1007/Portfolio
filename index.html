@@ -209,6 +209,22 @@
 <script>
   AOS.init({offset:0});
 </script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const menu = document.querySelector(".dropdown");
+    const hamburger = document.querySelector(".hamburg");
+    const cancel = document.querySelector(".cancel");
+
+    hamburger.addEventListener("click", function () {
+        menu.style.transform = "translateY(0)"; 
+    });
+
+    cancel.addEventListener("click", function () {
+        menu.style.transform = "translateY(-500px)"; 
+    });
+});
+
+</script>
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 <script>
     var typed = new Typed(".typewriter-text",{
